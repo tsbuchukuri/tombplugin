@@ -1,0 +1,45 @@
+.tomb{
+	.titleHeader{
+		margin: 20px 0px;
+		text-transform:capitalize;
+	}
+	table{ 
+		thead{
+			font-weight: bold;
+		}
+	}
+	.back{ 
+		font-family:"Comic Sans MS", cursive, sans-serif;  
+		font-size:14px;
+		color: #000;
+		font-weight: bold;
+		&:hover{
+			text-decoration:none;
+		}
+	}
+	.comentsForm{ 
+		width:70%; 
+		margin: auto;
+		label{
+			font-size: 15px;
+			font-weight: bold;
+			line-height: 1px;
+			text-transform: capitalize;
+			font-family:"Comic Sans MS", cursive, sans-serif;
+		}
+		input{
+			margin:0px 0px 10px 0px;
+			font-size: 13px;
+			font-family: "Trebuchet MS", Helvetica, sans-serif;
+		}
+		select{
+			margin:0px 0px 10px 0px;
+		}
+		textarea{
+			margin: 10px 0px;
+			resize: none;
+			height: 200px;
+		}
+	}
+
+}
